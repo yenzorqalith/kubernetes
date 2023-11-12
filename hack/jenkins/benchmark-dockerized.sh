@@ -58,7 +58,7 @@ export KUBE_RACE=" "
 # Disable coverage report
 export KUBE_COVER="n"
 export ARTIFACTS=${ARTIFACTS:-"${WORKSPACE}/artifacts"}
-export FULL_LOG="true"
+export FULL_LOG="false"
 
 mkdir -p "${ARTIFACTS}"
 cd "${GOPATH}/src/k8s.io/kubernetes"
