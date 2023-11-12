@@ -16,8 +16,6 @@
 
 set -o errexit
 set -o nounset
-set -o pipefail
-set -o xtrace
 
 retry() {
   for i in {1..5}; do
