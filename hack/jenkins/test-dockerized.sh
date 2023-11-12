@@ -33,7 +33,7 @@ export GO111MODULE=off
 
 # Install tools we need
 pushd "./hack/tools" >/dev/null
-  GO111MODULE=on go install gotest.tools/gotestsum
+  GO111MODULE=off go install gotest.tools/gotestsum
 popd >/dev/null
 
 # Disable coverage report
